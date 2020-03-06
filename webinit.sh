@@ -9,12 +9,6 @@ read -p "# ENTER THE PROJECT LOCATION (relative or absolute): " path
 # get owner of directory
 # read -p "# ENTER THE OWNER OF PROJECT (username): " user
 
-# RUN STUFF WITH THESE VARS
-
-# copy template
-# cp -R ~/SERVERS/.Templates/staticweb/ $path/$title
-# wget -O https://github.com/thisbit/webinit/archive/master.zip $path/$title && unzip $path/$title/master.zip && rm -rf $path/$title/master.zip
-
 # change project owner
 # sudo chown -R $user $title
 
