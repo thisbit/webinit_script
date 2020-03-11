@@ -1,4 +1,9 @@
 # SET VARIABLES
+# user friendly version would be to add the file to global sylinks:
+# mkdir ~/.my_scripts/ && cd my_scripts && mv /path/to/file/webinit.sh ~/.my_scripts/ && sudo chmod +x webinit.sh
+# now that the file works do this: 
+# cd /usr/local/bin/ && sudo ln -s ~/.my_scripts/webinit.sh webinit
+# and go back to user dir
 
 # get the name of project interactively
 read -p "# ENTER TITLE OF THE PROJECT: " title
